@@ -19,7 +19,10 @@ const AddExpense = ({ type }) => {
         <div>
             <Title>Add Amount</Title>
             <StyledInput type="number" min="0" />
-        </div>
+            <StyledInput type="checkbox"></StyledInput>
+
+
+     </div>
         <Button primary>{`Add ${
             type === 'income' ? 'Income' : 'Spending'
             }`}</Button>
