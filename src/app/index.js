@@ -7,7 +7,7 @@ const App = () => {
     return (
         <BrowserRouter>
             <Switch>
-                <Route path="/add" component={Add} />
+                <Route path="/add-expense/:type" component={Add} />
                 <Route path="/" component={Home} />
             </Switch>
         </BrowserRouter>
