@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import AddExpense from '../../components/add-expense'
+import AddExpense from "./../../Components/add-expense/index"
 
 const Add = () => {
     const params = useParams();
