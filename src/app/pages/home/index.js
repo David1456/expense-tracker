@@ -1,10 +1,10 @@
 import React from 'react';
-import Balance from '../../Components/Balance';
+import Balance from '../../Components/balance';
 
 const Home = () => {
     return <div>
         <Balance/>
-        Home
+        
     </div>
 }
 

@@ -1,4 +1,4 @@
-import React from "react"
+import React from "./node_modules/react"
 import { Title, Value } from "../../styled-components"
 const Balance=()=>{
     return (<div>
