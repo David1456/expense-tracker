@@ -69,28 +69,8 @@ const getCurrentTime = () => {
     const month = instance.getMonth()
     const year = instance.getFullYear()
 
-<<<<<<< HEAD
-    return <div style={containerStyle}>
-        <Title>Add New Expense</Title>
-        <div>
-            <Title>Add Text</Title>
-            <StyledInput />
-        </div>
-        <div>
-            <Title>Add Amount</Title>
-            <StyledInput type="number" min="0" />
-            <StyledInput type="checkbox"></StyledInput>
-
-
-     </div>
-        <Button primary>{`Add ${
-            type === 'income' ? 'Income' : 'Spending'
-            }`}</Button>
-    </div>
-=======
     return {
         date, month, year
     }
->>>>>>> cd2ddfcb78f30efbd21fa4859219750ff18df371
 }
 export default AddExpense;
